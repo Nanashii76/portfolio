@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, purple, #5DE2E7 );
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: url(_img/background.png);
+}
+
+.tutorial {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 50%;
+    background: silver;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: bold;
+}
